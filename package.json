@@ -1,0 +1,18 @@
+{
+    "name": "BaumBuildingBlocks",
+    "version": "1.0",
+    "description": "A lightweight custom build framework by Buro.Baum",
+    "main": "index.php",
+    "repository": {
+        "url": "https://github.com/sytheveenje/",
+        "type": "git"
+    },
+    "author": "Sythe Veenje <sythe@burobaum.nl>",
+    "license": "MIT",
+    "dependencies": {
+        "gulp": "3.9.1",
+        "gulp-autoprefixer": "5.0.0",
+        "gulp-sass": "4.0.1",
+        "gulp-sourcemaps": "2.6.4"
+    }
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+
+	<title>Anomatic Coffee Machine | a project by Ditmar van Dam</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	
+</head>
+<body>
+
+	<div class="c-logo">
+		<svg width="360px" height="140px" viewBox="0 0 361 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+				<g id="Artboard-1" fill="#14313C">
+					<g id="Group">
+						<path d="M125.1425,109.2546 C125.0365,109.0006 124.9365,108.7496 124.8325,108.4926 C123.9835,106.3326 123.5755,104.9886 123.2345,103.3036 L123.2185,103.3036 C122.9275,104.7456 122.5145,106.1486 121.7845,108.0626 C121.6305,108.4606 121.4695,108.8586 121.3005,109.2546 L125.1425,109.2546 Z M121.6445,100.9556 L124.7825,100.9556 L130.3875,114.5166 L127.1615,114.5166 L126.1085,111.7766 L120.4025,111.7766 L119.3815,114.5166 L116.2115,114.5166 L121.6445,100.9556 Z"
+						 id="Fill-1"></path>
+						<path d="M134.3412,100.9831 L137.0352,100.9831 L141.6902,107.6091 C142.0312,108.0951 142.5022,108.8421 143.2462,110.1291 L143.6142,110.7951 L143.6272,110.7901 L143.5212,109.5651 C143.4022,107.9431 143.3462,106.5241 143.3462,105.3731 L143.3462,100.9691 L146.1282,100.9691 L146.1282,114.6291 L143.4472,114.6291 L141.8912,112.4411 C139.6152,109.2371 138.3402,107.3341 136.8312,104.9701 L136.8152,104.9731 C136.9212,106.0921 136.9952,107.2021 137.0272,108.2891 L137.0482,109.4191 L137.0932,114.6141 L134.3412,114.6141 L134.3412,100.9831 Z"
+						 id="Fill-3"></path>
+						<path d="M153.7518,108.2419 C153.9898,110.5129 155.6758,112.0759 158.1018,112.1349 C160.5478,112.1889 162.3898,110.4369 162.4048,107.8099 C162.4208,105.0149 160.2138,103.0599 157.4328,103.4549 C155.3978,103.7339 153.8258,105.4579 153.7308,107.5829 C153.7198,107.8029 153.7278,108.0209 153.7518,108.2419 M157.9618,100.6009 C162.2838,100.5119 165.3878,103.6269 165.3558,107.7699 C165.3188,112.0759 162.4688,114.8889 157.9888,114.8449 C153.7308,114.8039 150.9148,112.0469 150.8068,108.0459 C150.6898,103.8649 153.6878,100.6879 157.9618,100.6009"
+						 id="Fill-5"></path>
+						<path d="M170.8256,100.9694 L173.8666,100.9694 L175.8426,106.4874 C176.3056,107.7864 176.6876,109.0614 177.0126,110.3794 L177.0286,110.3794 L177.4386,108.9714 C177.7346,107.9904 177.9996,107.1964 178.2586,106.4894 L180.2486,100.9824 L183.3056,100.9824 L185.1796,114.5264 L182.3136,114.5264 L181.7546,110.1364 C181.4216,107.4844 181.3336,106.3754 181.3266,104.5574 L181.3106,104.5574 C180.9796,105.8224 180.7676,106.5054 180.0666,108.5084 L177.9336,114.5264 L176.0596,114.5264 L173.9136,108.5964 C173.1916,106.5794 173.0196,106.0264 172.7286,104.7614 L172.7126,104.7614 L172.6566,105.9554 C172.5406,107.9234 172.4106,109.2654 172.2916,110.1364 L171.7066,114.5154 L168.8546,114.5154 L170.8256,100.9694 Z"
+						 id="Fill-7"></path>
+						<path d="M197.5219,109.2546 C197.4159,109.0006 197.3159,108.7496 197.2109,108.4926 C196.3629,106.3326 195.9549,104.9886 195.6139,103.3036 L195.5979,103.3036 C195.3069,104.7456 194.8939,106.1486 194.1639,108.0626 C194.0089,108.4606 193.8489,108.8586 193.6799,109.2546 L197.5219,109.2546 Z M194.0239,100.9556 L197.1619,100.9556 L202.7669,114.5166 L199.5409,114.5166 L198.4879,111.7766 L192.7819,111.7766 L191.7599,114.5166 L188.5899,114.5166 L194.0239,100.9556 Z"
+						 id="Fill-9"></path>
+						<polygon id="Fill-11" points="204.1957 100.9557 212.9837 100.9557 212.9837 103.5627 210.0437 103.5627 210.0437 114.5427 207.0907 114.5427 207.0907 103.5777 204.1957 103.5777"></polygon>
+						<polygon id="Fill-13" points="217.134 114.543 220.103 114.543 220.103 100.957 217.134 100.957"></polygon>
+						<path d="M235.6098,101.5329 L235.6098,104.8329 L235.2708,104.5819 C234.0198,103.6499 232.9768,103.2929 231.8948,103.3039 C229.6448,103.3409 227.9008,105.1929 227.8928,107.8519 C227.8908,110.2659 229.1728,111.7869 231.3468,112.1229 C231.5738,112.1549 231.8068,112.1749 232.0368,112.1749 C233.0638,112.1679 233.9978,111.8719 235.0668,111.1419 L235.5778,110.7949 L235.5778,113.9519 L234.7498,114.2349 C233.5908,114.6369 232.5108,114.8249 231.5078,114.8419 C227.8088,114.9049 224.8768,111.9329 224.8978,107.7039 C224.9158,103.4659 227.7478,100.5919 231.5658,100.6039 C232.5478,100.6089 233.4638,100.7739 234.7018,101.2099 L235.6098,101.5329 Z"
+						 id="Fill-15"></path>
+						<path d="M93.1488,127.1647 L93.1488,130.4657 L92.8098,130.2147 C91.5588,129.2817 90.5158,128.9257 89.4338,128.9357 C87.1838,128.9727 85.4398,130.8247 85.4318,133.4837 C85.4298,135.8977 86.7108,137.4197 88.8858,137.7557 C89.1128,137.7867 89.3458,137.8067 89.5768,137.8067 C90.6028,137.8007 91.5368,137.5047 92.6068,136.7737 L93.1168,136.4277 L93.1168,139.5847 L92.2888,139.8667 C91.1298,140.2687 90.0498,140.4567 89.0468,140.4737 C85.3478,140.5367 82.4158,137.5647 82.4368,133.3367 C82.4548,129.0977 85.2868,126.2237 89.1048,126.2357 C90.0868,126.2407 91.0028,126.4057 92.2408,126.8427 L93.1488,127.1647 Z"
+						 id="Fill-16"></path>
+						<path d="M100.2357,133.8737 C100.4737,136.1447 102.1597,137.7077 104.5867,137.7667 C107.0317,137.8217 108.8737,136.0687 108.8887,133.4417 C108.9047,130.6467 106.6977,128.6917 103.9167,129.0867 C101.8817,129.3667 100.3097,131.0897 100.2147,133.2147 C100.2037,133.4347 100.2117,133.6527 100.2357,133.8737 M104.4457,126.2327 C108.7677,126.1437 111.8717,129.2587 111.8397,133.4017 C111.8027,137.7077 108.9527,140.5207 104.4727,140.4767 C100.2147,140.4357 97.3987,137.6787 97.2907,133.6777 C97.1737,129.4967 100.1717,126.3197 104.4457,126.2327"
+						 id="Fill-17"></path>
+						<polygon id="Fill-18" points="116.5712 126.5593 124.5552 126.5593 124.5552 129.1793 119.5962 129.1793 119.5962 131.8603 124.5262 131.8603 124.5262 134.4973 119.5692 134.4973 119.5692 140.1583 116.5712 140.1583"></polygon>
+						<polygon id="Fill-19" points="128.6571 126.5593 136.6411 126.5593 136.6411 129.1793 131.6821 129.1793 131.6821 131.8603 136.6121 131.8603 136.6121 134.4973 131.6551 134.4973 131.6551 140.1583 128.6571 140.1583"></polygon>
+						<polygon id="Fill-20" points="140.7294 126.5886 148.4934 126.5886 148.4934 129.2106 143.6984 129.2106 143.6984 131.9186 148.3644 131.9186 148.3644 134.5566 143.6984 134.5566 143.6984 137.4506 148.4934 137.4506 148.4934 140.1576 140.7294 140.1576"></polygon>
+						<polygon id="Fill-21" points="154.0189 126.5886 161.7829 126.5886 161.7829 129.2106 156.9879 129.2106 156.9879 131.9186 161.6539 131.9186 161.6539 134.5566 156.9879 134.5566 156.9879 137.4506 161.7829 137.4506 161.7829 140.1576 154.0189 140.1576"></polygon>
+						<path d="M176.3378,126.6013 L179.3788,126.6013 L181.3548,132.1203 C181.8178,133.4183 182.1998,134.6933 182.5248,136.0113 L182.5408,136.0113 L182.9508,134.6033 C183.2478,133.6223 183.5118,132.8293 183.7708,132.1223 L185.7608,126.6153 L188.8178,126.6153 L190.6918,140.1593 L187.8258,140.1593 L187.2668,135.7683 C186.9338,133.1173 186.8458,132.0073 186.8388,130.1893 L186.8228,130.1893 C186.4918,131.4553 186.2798,132.1373 185.5788,134.1403 L183.4458,140.1593 L181.5718,140.1593 L179.4258,134.2283 C178.7038,132.2113 178.5318,131.6593 178.2408,130.3933 L178.2248,130.3933 L178.1688,131.5873 C178.0528,133.5553 177.9228,134.8973 177.8038,135.7683 L177.2188,140.1473 L174.3668,140.1473 L176.3378,126.6013 Z"
+						 id="Fill-22"></path>
+						<path d="M203.0336,134.8874 C202.9286,134.6334 202.8276,134.3824 202.7236,134.1244 C201.8746,131.9654 201.4676,130.6204 201.1256,128.9354 L201.1096,128.9354 C200.8186,130.3774 200.4056,131.7804 199.6766,133.6944 C199.5216,134.0934 199.3606,134.4904 199.1916,134.8874 L203.0336,134.8874 Z M199.5356,126.5884 L202.6746,126.5884 L208.2786,140.1484 L205.0536,140.1484 L203.9996,137.4084 L198.2936,137.4084 L197.2726,140.1484 L194.1026,140.1484 L199.5356,126.5884 Z"
+						 id="Fill-23"></path>
+						<path d="M221.7533,127.1647 L221.7533,130.4657 L221.4143,130.2147 C220.1633,129.2817 219.1203,128.9257 218.0383,128.9357 C215.7883,128.9727 214.0443,130.8247 214.0363,133.4837 C214.0343,135.8977 215.3163,137.4197 217.4903,137.7557 C217.7183,137.7867 217.9503,137.8067 218.1823,137.8067 C219.2073,137.8007 220.1423,137.5047 221.2113,136.7737 L221.7223,136.4277 L221.7223,139.5847 L220.8943,139.8667 C219.7343,140.2687 218.6543,140.4567 217.6513,140.4737 C213.9523,140.5367 211.0213,137.5647 211.0413,133.3367 C211.0603,129.0977 213.8923,126.2237 217.7093,126.2357 C218.6913,126.2407 219.6073,126.4057 220.8463,126.8427 L221.7533,127.1647 Z"
+						 id="Fill-24"></path>
+						<polygon id="Fill-25" points="227.0512 126.5593 230.0312 126.5593 230.0312 131.9183 235.1502 131.9183 235.1502 126.5593 238.0892 126.5593 238.0892 140.1743 235.1332 140.1743 235.1332 134.5693 230.0312 134.5693 230.0312 140.1743 227.0512 140.1743"></polygon>
+						<polygon id="Fill-26" points="243.946 140.175 246.915 140.175 246.915 126.589 243.946 126.589"></polygon>
+						<path d="M252.9057,126.6149 L255.5997,126.6149 L260.2557,133.2409 C260.5957,133.7269 261.0667,134.4739 261.8107,135.7609 L262.1787,136.4269 L262.1917,136.4219 L262.0867,135.1969 C261.9677,133.5749 261.9107,132.1559 261.9107,131.0049 L261.9107,126.6009 L264.6927,126.6009 L264.6927,140.2609 L262.0117,140.2609 L260.4567,138.0729 C258.1797,134.8689 256.9047,132.9659 255.3957,130.6019 L255.3807,130.6059 C255.4857,131.7239 255.5597,132.8339 255.5927,133.9209 L255.6127,135.0509 L255.6577,140.2459 L252.9057,140.2459 L252.9057,126.6149 Z"
+						 id="Fill-27"></path>
+						<polygon id="Fill-28" points="270.5463 126.5886 278.3103 126.5886 278.3103 129.2106 273.5153 129.2106 273.5153 131.9186 278.1813 131.9186 278.1813 134.5566 273.5153 134.5566 273.5153 137.4506 278.3103 137.4506 278.3103 140.1576 270.5463 140.1576"></polygon>
+						<path d="M321.975,44.2643 C319.668,39.9033 317.285,35.3943 314.608,34.1343 C309.72,39.4893 310.588,48.3543 316.62,54.3863 C321.205,58.9713 327.748,60.6813 333.039,58.7223 C328.025,55.7073 324.815,49.6363 321.975,44.2643"
+						 id="Fill-29"></path>
+						<path d="M319.6391,30.8962 C322.5501,33.5032 324.7471,37.6552 326.8731,41.6732 C330.0071,47.5992 333.2461,53.7242 338.2681,54.9002 C339.9571,52.6972 340.7771,50.0172 340.7771,47.2292 C340.7771,43.1262 339.0031,38.7922 335.6091,35.3972 C331.1291,30.9172 324.9001,29.1742 319.6391,30.8962"
+						 id="Fill-30"></path>
+						<path d="M340.1938,78.237 L280.0538,54.503 C278.7438,53.985 277.3098,54.007 276.0188,54.565 L265.9918,58.903 L265.9918,29.948 L276.0188,34.285 C277.3078,34.843 278.7418,34.866 280.0538,34.349 L340.2388,10.601 L340.2878,10.605 C345.8368,11.091 350.1838,15.841 350.1838,21.417 L350.1838,67.44 C350.1838,73.016 345.8368,77.765 340.2878,78.252 L340.2388,78.256 L340.1938,78.237 Z M360.7478,67.44 L360.7478,21.417 C360.7478,9.607 351.1388,0.001 339.3308,0.001 C338.6628,0.001 338.0098,0.125 337.3918,0.371 L278.2078,23.725 L278.1298,23.691 L262.8058,17.064 C261.1678,16.357 259.2988,16.519 257.8098,17.499 C256.3178,18.477 255.4278,20.128 255.4278,21.913 L255.4278,66.939 C255.4278,68.722 256.3178,70.373 257.8098,71.353 C259.2978,72.332 261.1668,72.493 262.8058,71.786 L278.2078,65.126 L278.2868,65.157 L337.3918,88.486 C338.0078,88.732 338.6608,88.856 339.3308,88.856 C351.1388,88.856 360.7478,79.249 360.7478,67.44 Z"
+						 id="Fill-31"></path>
+						<path d="M26.6991,83.2263 C26.6991,80.3153 24.3301,77.9463 21.4181,77.9463 C15.4331,77.9463 10.5641,73.0773 10.5641,67.0913 L10.5641,21.7683 C10.5641,15.7843 15.4331,10.9153 21.4181,10.9153 C24.3301,10.9153 26.6991,8.5453 26.6991,5.6333 C26.6991,2.7213 24.3301,0.3523 21.4181,0.3523 C9.6081,0.3523 0.0001,9.9593 0.0001,21.7683 L0.0001,67.0913 C0.0001,78.9023 9.6081,88.5083 21.4181,88.5083 C24.3301,88.5083 26.6991,86.1393 26.6991,83.2263"
+						 id="Fill-32"></path>
+						<path d="M50.7704,43.0358 L58.6774,46.9388 L50.7704,50.8418 L49.5024,59.5678 L43.3464,53.2538 L34.6544,54.7438 L38.7584,46.9388 L34.6544,39.1328 L43.3464,40.6238 L49.5024,34.3088 L50.7704,43.0358 Z M20.8604,46.9388 C20.8604,59.5448 31.1154,69.7998 43.7204,69.7998 L66.5814,69.7998 L66.5814,21.3618 C66.5814,9.7748 57.1544,0.3488 45.5674,0.3488 C42.6544,0.3488 40.2854,2.7188 40.2854,5.6308 C40.2854,8.5428 42.6544,10.9108 45.5674,10.9108 C51.3294,10.9108 56.0174,15.5998 56.0174,21.3618 L56.0174,24.0778 L43.7214,24.0778 C31.1164,24.0778 20.8604,34.3348 20.8604,46.9388 Z"
+						 id="Fill-33"></path>
+						<path d="M214.8871,58.7467 L214.8871,34.1537 C214.8871,30.7627 217.6471,28.0017 221.0381,28.0017 C224.4311,28.0017 227.1921,30.7627 227.1921,34.1537 L227.1921,43.8157 C227.1921,53.0337 234.6911,60.5337 243.9081,60.5337 C246.8211,60.5337 249.1901,58.1637 249.1901,55.2517 C249.1901,52.3407 246.8211,49.9717 243.9081,49.9717 C240.5151,49.9717 237.7551,47.2097 237.7551,43.8157 L237.7551,34.1537 C237.7551,24.9377 230.2561,17.4387 221.0381,17.4387 C211.8221,17.4387 204.3241,24.9377 204.3241,34.1537 L204.3241,58.7467 C204.3241,59.9127 203.3751,60.8617 202.2091,60.8617 C201.0441,60.8617 200.0961,59.9127 200.0961,58.7467 L200.0961,34.1537 C200.0961,24.9377 192.5971,17.4387 183.3791,17.4387 C174.1621,17.4387 166.6631,24.9377 166.6631,34.1537 L166.6631,43.8157 C166.6631,47.2097 163.9041,49.9717 160.5121,49.9717 C157.5991,49.9717 155.2301,52.3407 155.2301,55.2517 C155.2301,58.1637 157.5991,60.5337 160.5121,60.5337 C169.7281,60.5337 177.2261,53.0337 177.2261,43.8157 L177.2261,34.1537 C177.2261,30.7627 179.9871,28.0017 183.3791,28.0017 C186.7731,28.0017 189.5331,30.7627 189.5331,34.1537 L189.5331,58.7467 C189.5331,65.7377 195.2191,71.4257 202.2091,71.4257 C209.2001,71.4257 214.8871,65.7377 214.8871,58.7467"
+						 id="Fill-34"></path>
+						<path d="M104.6395,64.5505 C99.2555,62.3215 95.0635,58.1285 92.8335,52.7435 C91.7235,50.0675 91.1605,47.2585 91.1605,44.3975 C91.1605,41.5345 91.7235,38.7265 92.8335,36.0495 C95.0585,30.6765 99.2515,26.4875 104.6405,24.2545 C110.0285,22.0215 115.9565,22.0175 121.3305,24.2425 C123.3005,25.0615 124.5735,26.9655 124.5735,29.0945 C124.5735,29.7825 124.4385,30.4585 124.1725,31.1005 C123.6375,32.3975 122.6285,33.4065 121.3325,33.9445 C120.0365,34.4815 118.6095,34.4815 117.3145,33.9445 C111.5495,31.5595 104.9195,34.3075 102.5335,40.0695 C101.9585,41.4595 101.6675,42.9165 101.6675,44.3995 C101.6675,45.8825 101.9585,47.3375 102.5335,48.7245 C103.6885,51.5185 105.8635,53.6935 108.6575,54.8495 C114.4205,57.2345 121.0505,54.4875 123.4365,48.7245 C123.9725,47.4295 124.9815,46.4215 126.2775,45.8845 C127.5735,45.3475 129.0005,45.3475 130.2955,45.8845 C132.2645,46.7015 133.5375,48.6045 133.5375,50.7315 C133.5375,51.4205 133.4035,52.0975 133.1375,52.7425 C130.9115,58.1165 126.7185,62.3065 121.3305,64.5395 C115.9415,66.7725 110.0135,66.7765 104.6395,64.5505 M123.0345,78.7215 L123.0345,73.5895 L123.0345,73.3015 L123.3065,73.2045 C124.2795,72.8565 125.2405,72.4565 126.1625,72.0165 L126.4235,71.8915 L126.6285,72.0965 L130.2615,75.7295 C136.2145,72.4465 141.0805,67.5795 144.3625,61.6275 L140.7295,57.9945 L140.5255,57.7905 L140.6495,57.5285 C141.0915,56.6035 141.4905,55.6425 141.8365,54.6725 L141.9335,54.4015 L142.2225,54.4015 L147.3535,54.4015 C148.3055,51.1405 148.7875,47.7875 148.7875,44.4285 C148.7875,41.0705 148.3045,37.7175 147.3535,34.4565 L142.2225,34.4565 L141.9335,34.4565 L141.8365,34.1845 C141.4915,33.2175 141.0915,32.2565 140.6495,31.3275 L140.5255,31.0675 L140.7295,30.8625 L144.3625,27.2305 C141.0805,21.2785 136.2145,16.4105 130.2615,13.1285 L126.6285,16.7605 L126.4235,16.9655 L126.1625,16.8405 C125.2385,16.4005 124.2775,16.0015 123.3065,15.6535 L123.0345,15.5565 L123.0345,15.2685 L123.0345,10.1365 C119.7745,9.1855 116.4205,8.7025 113.0615,8.7025 C109.7025,8.7025 106.3485,9.1855 103.0895,10.1365 L103.0895,15.2685 L103.0895,15.5565 L102.8175,15.6535 C101.8475,16.0005 100.8855,16.4005 99.9605,16.8405 L99.6995,16.9655 L99.4945,16.7605 L95.8615,13.1285 C89.9095,16.4105 85.0425,21.2785 81.7605,27.2305 L85.3935,30.8625 L85.5975,31.0675 L85.4735,31.3295 C85.0325,32.2535 84.6325,33.2145 84.2865,34.1845 L84.1895,34.4565 L83.9005,34.4565 L78.7695,34.4565 C77.8185,37.7175 77.3365,41.0715 77.3365,44.4285 C77.3365,47.7845 77.8185,51.1395 78.7695,54.4015 L83.9005,54.4015 L84.1895,54.4015 L84.2865,54.6725 C84.6325,55.6405 85.0315,56.6015 85.4735,57.5295 L85.5975,57.7905 L85.3935,57.9945 L81.7605,61.6275 C85.0435,67.5805 89.9095,72.4465 95.8615,75.7285 L99.4945,72.0965 L99.6995,71.8915 L99.9605,72.0165 C100.8835,72.4565 101.8445,72.8565 102.8175,73.2045 L103.0895,73.3015 L103.0895,73.5895 L103.0895,78.7215 C106.3495,79.6725 109.7035,80.1545 113.0615,80.1545 C116.4195,80.1545 119.7735,79.6725 123.0345,78.7215"
+						 id="Fill-35"></path>
+					</g>
+				</g>
+			</g>
+		</svg>
+	</div>
+
+	<div class="c-header c-grid__item-has-background" style="background-image: url('media/anomatic_bg.jpg'); ">
+	</div>
+
+	<div class="c-grid">
+
+		<div class="c-grid__item">
+			<h2>What if….</h2>
+			<p>
+				You could use the energy from your workout to power your coffee machine? It is possible! The Anomatic Coffee Machine is
+				the most sustainable and heathiest coffee machine in the world. 
+			</p>
+			<p>
+				Our goal is to turn wasted energy from systems (like heat
+				from fridges and lighting, movement from workouts, etc.) into coffee. The machines are electricity-free and no energy is
+				added! Why not make a delicious espresso during your long car drive, heated by your engine for free! <strong>Or stay fit during a
+				working day with a 3-minute workout and get a nice espresso as a reward.</strong>
+			</p>
+		</div>
+		<div class="c-grid__item c-grid__item-has-background" style="background-image: url('media/anomatic_for_sale.jpg'); ">
+			
+		</div>
+		<div class="c-grid__item">
+			<div id="lottie"></div>
+		</div>
+		<div class="c-grid__item c-background-dark">
+			<h2>How does the fitness model work?</h2>
+			<p>
+				Do a short workout like cycling, rowing, cross training. Add some resistance to your workout, to make it effective. The
+				resistance is caused by friction. The friction heats up the water. A cold machine needs about 3 to 5 minutes to heat the
+				water to 94 degrees (it would take just one minute to make the second cup!). 
+			</p><p>
+				After heating up the water, you can grind the
+				coffee beans by continuing your workout for approximately 10 seconds. Tamp the ground coffee by moving the lever and press
+				the water through with 9 bars by pulling the lever down. All parameters can be controlled on the dashboard. It’s easy, anybody
+				can do it - just set the resistance to suit you.
+
+			</p>
+		</div>
+		<div class="c-grid__item c-background-light">
+			<h2>I want one</h2>
+			<p>
+				Do you want to stay fit while working in the office? A short 3-minute workout will make you feel sharp again, and you can
+				make it last longer by rewarding yourself with an espresso. Or are you interested in a fitness machine that uses its energy
+				to make tasty espressos? 
+			</p><p>
+				<strong>Only 5 Anomatic Coffee Machines are for sale now</strong>. Each one is unique and customized. If you’re looking
+				for a different solution, we have many concepts. Contact us and we will look where we can find wasted energy at your location
+				for a coffee machine. And look for a sustainable way to turn this into coffee for you. Our test machine is for hire as well.
+			</p>
+			<p>
+			If you have a festival, shop opening or other event, <a href="mailto:ditmar@anomaticcoffeemachine.com">please send us an email</a>.
+			</p>
+		</div>
+		<div class="c-grid__item c-grid__item-has-background" style="background-image: url('media/anomatic_logo_part.png'); ">
+		</div>
+		<div class="c-grid__item c-grid__item-has-background" style="background-image: url('media/anomatic_images.jpg'); ">
+		</div>
+		<div class="c-grid__item">
+			<h2>What is possible?</h2>
+
+			<p>
+				 By fitting products to the specific places of use, we open up many new possibilities for making sustainable products. Imagine
+				using the heat of your car engine to make a delicious espresso on your car trip (instead of the gas station coffee). Or a
+				fridge needs to cool the products inside and produce heat on the outside at the same time, why don’t we use this to heat
+				our water for a cup of coffee? A gym combined with an espresso bar?
+
+			</p>
+		</div>
+		<div class="c-grid__item c-background-light">
+			<h2>Why this idea</h2>
+			<p>
+				As an industrial product designer and engineer I am inspired by the Cradle to Cradle-philosophy, blue economy, donut economy.
+				And I feel that it’s my duty to create good products, there must be no option to buy bad products. To realise this I combined
+				my knowledge of medical machine-design, lightning- and cabling systems, interactive machines for festivals (www.rabonk.com),
+				and my passion for coffee. 
+			</p><p>
+				Later on, Rob Grip and Jeroen Wilts joined the team to turn the ideas into smooth working products.
+				The biggest step to make a sustainable product is to get rid of dirty energy. No fossil energy, that also means no batteries,
+				not burning things (because of the small particles in the air), but using things that are easily renewable. For example in
+				the fitness version we turn the mechanical energy created by friction into heat. For the friction we use a wooden disc. 
+			</p><p>	Our goal is for the tree to grow faster than we use wooden discs. Our dream is to use walking energy (with every step, your body
+				mass weight gets up 3cm every step, but also down 3cm (kinetic energy)) this energy we wanted to turn into coffee. We created
+				different test models to test the most difficult part, the water heating system. For the walking persons we use a bike for
+				easy testing. This year we managed to get the control on the heating systems. 
+			</p>
+			<p>
+				At the Amsterdam Coffee Festival 2018 we got
+				so many good reviews, and questions about a production model, that we decided to produce a small batch of 5 Anomatic Coffee
+				Machines.
+			</p>
+
+			<a href="https://ndc.bbvms.com/p/dvhn_videoplayer_v2/c/2955715.html?inheritDimensions=true" class="btn" target="_blank">See in action (video)</a>
+		</div>
+		<div class="c-grid__item c-grid__item-has-background" style="background-image: url('media/anomatic_bg.jpg'); ">
+		</div>
+		<div class="c-grid__item c-grid__item-has-background" style="background-image: url('media/waste_into_coffee.png'); ">
+		</div>
+		<div class="c-grid__item c-background-dark">
+			<h2>Sustainability</h2>
+
+			<p>
+				 Our goal is to turn wasted energy from systems (like heat from fridges and lighting, movement from workouts, etc.) into
+				coffee. An important part is that no energy is added! The energy had to be already there. Don’t do extra things to create
+				it. Car example; If you had to drive from A to B, the engine of your car gets hot. We only use this heat for our coffee machine,
+				so you do not have to tank extra gasoline. Nor did the gas station have to heat water for you. </p>
+				<p>
+				Fitness example: If you want
+				to stay in shape and go to a gym, you have to train with some resistance for a workout (like pushing a weight up and down,
+				a brake on your spinning bike to simulate climbing a hill, etc.) we use this resistance to heat the water. We want to use
+				directly recycled materials, where it is a benefit. </p>
+				<p>Why remake things that are already there. What we do is redesign it,
+				so all parts fits together as one design. That makes every product unique. Like light roasted single estate coffee, the taste
+				depends on the season and it is always different.
+
+			</p>
+		</div>
+		<div class="c-grid__item">
+			<h2>The Anomatic Coffee Machine-Team</h2>
+
+			<p>
+				<strong>Ditmar van Dam</strong> (founder, industrial product designer and engineer, coffee specialist) Has been running his industrial design
+				and engineering company for over fifteen years. Has designed and engineered medical machines, pancake machines, blow ups
+				for in public areas, an interactive shaving game, and many more. Since 2008 he has been focusing on cradle to cradle design
+				and started making ideas for the most sustainable coffee machines. 
+				</p><p>
+				<strong>Rob Grip</strong> (Paddle driven machine specialist) Besides making
+				beautiful kinetic artwork, he’s well known for making reliable blender bikes. He already turns many different machines into
+				paddle driven ones. 
+				</p><p>
+				<strong>Jeroen Wilts</strong> (Fine mechanic, the man of precision) To make something work very well, you need precision.
+				Jeroen combines his skills with his love for theoretical music, and turns this into musical instrument.
+				</p><p>
+				<strong>And many thanks to our helpers</strong> (in random order), Kees van der Westen (Espressionistics Works BV), Iris van Sen, Pieter (Ratworks), Jochem Telle,
+				Marc Buddendorf, Willem Huisman (Brita), Hans Tietema (Kaldi), Beerepoot Metaal BV, Annemieke Huls, Boot Koffie, prof. dr.
+				H. Snieder, DRS, Studio Plakband, Koffiestation, Peter van Dam, Spaak Koffie & Koers, Joel Langer, Coen Miedema, vereniging
+				Broedplaat de Campagne, Buro Baum And apologies to anyone whose name we forgot to put on the list but who has done such a
+				great job for us.
+			</p>
+		</div>
+		<div class="c-grid__item c-grid__item-has-background" style="background-image: url('media/ditmar.jpg'); ">
+		</div>
+		<div class="c-grid__item c-grid__item-has-background" style="background-image: url('media/machine_in_studio.jpg'); ">
+		</div>
+		<div class="c-grid__item c-background-dark">
+			<h2>Contact information</h2>
+			 <p><a href="mailto:ditmar@anomaticcoffeemachine.com">ditmar@anomaticcoffeemachine.com</a></p> 
+			 <p>Phone: <a href="tel:0031627037594">+31 (0)6 270 375 94</a></p>
+			 <address> Boterdiep 63, 9712 LK Groningen, the Netherlands</address>
+
+			 <h2>Follow us</h2>
+			 <ul>
+				 <li><a href="https://www.facebook.com/anomaticcoffeemachine">Facebook</a></li>
+				 <li><a href="https://www.instagram.com/anomatic_coffee_machine/">Instagram<a/></li>
+			 </ul>
+		</div>
+	</div>
+
+
+	<script src="js/site.js"></script>
+	<script src="js/lottie.js"></script>
+	<script src="js/anomatic_animation.js"></script>
+
+</body>
+</html>
